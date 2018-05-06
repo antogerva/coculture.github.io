@@ -1,0 +1,2412 @@
+<!doctype html>
+
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Content-Language" content="en" />
+
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#4188c9">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+
+<link rel="icon" href="./favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+
+<!-- Generated: 2018-05-06 11:20:17 -0400 -->
+
+<title>coculture - tabler.github.io - a responsive, flat and full featured admin template</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext">
+<script src="./assets/js/require.min.js"></script>
+<script>
+    requirejs.config({
+        baseUrl: '.'
+    });
+</script>
+
+<!-- Dashboard Core -->
+<link href="./assets/css/dashboard.css" rel="stylesheet" />
+<script src="./assets/js/dashboard.js"></script>
+
+
+<!-- c3.js Charts Plugin -->
+<link href="./assets/plugins/charts-c3/plugin.css" rel="stylesheet" />
+<script src="./assets/plugins/charts-c3/plugin.js"></script>
+
+<!-- Google Maps Plugin -->
+<link href="./assets/plugins/maps-google/plugin.css" rel="stylesheet" />
+<script src="./assets/plugins/maps-google/plugin.js"></script>
+
+<!-- Input Mask Plugin -->
+
+<script src="./assets/plugins/input-mask/plugin.js"></script>
+
+</head>
+<body class="">
+
+<div class="page">
+	
+
+<div class="page-main">
+	
+<div class="header py-4">
+	<div class="container">
+		<div class="d-flex">
+			<a class="header-brand" href="./index.html">
+				<img src="./demo/brand/tabler.svg" class="header-brand-img" alt="tabler logo">
+			</a>
+
+			<div class="d-flex order-lg-2 ml-auto">
+				<!-- <div class="nav-item d-none d-md-flex">
+					<a href="https://github.com/tabler/tabler" class="btn btn-sm btn-outline-primary" target="_blank">Source code</a>
+				</div> -->
+				<div class="dropdown d-none d-md-flex">
+					<a class="nav-link icon" data-toggle="dropdown">
+						<i class="fe fe-bell"></i>
+						<span class="nav-unread"></span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+						<a href="#" class="dropdown-item d-flex">
+							<span class="avatar mr-3 align-self-center" style="background-image: url(demo/faces/male/41.jpg)"></span>
+							<div>
+								<strong>Nathan</strong> veut savoir s’il devrait procéder à la récolte?
+								<div class="small text-muted">10 minutes ago</div>
+							</div>
+						</a>
+						<a href="#" class="dropdown-item d-flex">
+							<span class="avatar mr-3 align-self-center" style="background-image: url(demo/faces/female/1.jpg)"></span>
+							<div>
+								<strong>Alice</strong> a arrosé tes fleures préférés.
+								<div class="small text-muted">1 hour ago</div>
+							</div>
+						</a>
+						<a href="#" class="dropdown-item d-flex">
+							<span class="avatar mr-3 align-self-center" style="background-image: url(demo/faces/female/18.jpg)"></span>
+							<div>
+								<strong>Rose</strong> troc ses fameuse tubercules
+								<div class="small text-muted">2 hours ago</div>
+							</div>
+						</a>
+						<div class="dropdown-divider"></div>
+						<a href="#" class="dropdown-item text-center">Marquer comme lu</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="#" class="nav-link pr-0 leading-none" data-toggle="dropdown">
+						<span class="avatar" style="background-image: url(./demo/faces/female/25.jpg)"></span>
+						<span class="ml-2 d-none d-lg-block">
+							<span class="text-default">Jane Pearson</span>
+							<small class="text-muted d-block mt-1">Administrator</small>
+						</span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+						<a class="dropdown-item" href="userprofile.html">
+							<i class="dropdown-icon fe fe-user"></i> Profile
+						</a>
+						<a class="dropdown-item" href="#">
+							<i class="dropdown-icon fe fe-settings"></i> Settings
+						</a>
+						<a class="dropdown-item" href="#">
+							<span class="float-right"><span class="badge badge-primary">6</span></span>
+							<i class="dropdown-icon fe fe-mail"></i> Inbox
+						</a>
+						<a class="dropdown-item" href="#">
+							<i class="dropdown-icon fe fe-send"></i> Message
+						</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">
+							<i class="dropdown-icon fe fe-help-circle"></i> Need help?
+						</a>
+						<a class="dropdown-item" href="#">
+							<i class="dropdown-icon fe fe-log-out"></i> Sign out
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<a href="#" class="header-toggler d-lg-none ml-3 ml-lg-0" data-toggle="collapse" data-target="#headerMenuCollapse">
+				<span class="header-toggler-icon"></span>
+			</a>
+		</div>
+	</div>
+</div>
+
+
+	<div class="my-3 my-md-5">
+		
+
+		<div class="container">
+
+	<!-- <div class="page-header">
+	<h1 class="page-title">
+		
+
+		Mes Jardins > Jardin d'ici
+	</h1>
+
+	
+
+	
+
+	
+</div> -->
+	<div class="pagenav">
+		<!-- <a href="#">Mes Jardins </a> -->
+		<a href=#>Mon jardin</a>
+	</div>
+
+	<div class="pagetit">
+		<!-- <a href="#">Mes Jardins </a> -->
+		<h1>Jardin Pictout</h1>
+		<p>7639 blvd Des Lorimiers</p>
+		<div class="avatar-list avatar-list-stacked">
+  <span class="avatar" style="background-image: url(./demo/faces/female/12.jpg)"></span>
+  <span class="avatar" style="background-image: url(./demo/faces/female/21.jpg)"></span>
+  <span class="avatar" style="background-image: url(./demo/faces/female/29.jpg)"></span>
+  <span class="avatar" style="background-image: url(./demo/faces/female/2.jpg)"></span>
+  <span class="avatar" style="background-image: url(./demo/faces/male/34.jpg)"></span>
+  <span class="avatar">+8</span>
+</div>
+	</div>
+
+	<div class="row row-cards" style="margin-top: 49vh;">
+		<div class="col-sm-12 alert alert-icon alert-danger" role="alert">
+  <i class="fe fe-alert-triangle mr-2" aria-hidden="true"></i> Attention: Des rafales de 117 km/h au Québec. Pensez à protéger vos plantes.
+</div>
+</div>
+	<div class="row row-cards row-deck">
+		<div class="col-xl-6 col-sm-12">
+		<div class="card">
+		<div class="card-header">
+		<h3 class="card-title">Tâches à faire</h3>
+		</div>
+		<div class="card-body todocont">
+			<div class="todorow">
+				<div class="todoicon"><img src="http://frill-s.com/coculture/logos/water.png"></div>
+					<div class="tododesc">Arroser</div>
+						<div class="todouser"><span class="avatar" style="background-image: url(./demo/faces/male/21.jpg)"></span></div>
+							<div class="tododue"><span class="tag tag-orange">~5 jours</span></div>
+							<div class="tododone">
+								<div class="md-checkbox">
+    <input id="i2" type="checkbox" unchecked>
+    <label for="i2"></label>
+  </div>
+							</div>
+			</div>
+				<div class="todorow">
+					<div class="todoicon"><img src="http://frill-s.com/coculture/logos/cut.png"></div>
+						<div class="tododesc">Trimmer</div>
+							<div class="todouser"><span class="avatar" style="background-image: url(./demo/faces/male/24.jpg)"></span></div>
+								<div class="tododue"><span class="tag tag-yellow">~15 jours</span></div>
+								<div class="tododone">
+									<div class="md-checkbox">
+	    <input id="i3" type="checkbox" unchecked>
+	    <label for="i3"></label>
+	  </div>
+								</div>
+				</div>
+					<div class="todorow">
+						<div class="todoicon"><img src="http://frill-s.com/coculture/logos/shovel.png"></div>
+							<div class="tododesc">Paysagement</div>
+								<div class="todouser"><span class="avatar" style="background-image: url(./demo/faces/female/21.jpg)"></span></div>
+									<div class="tododue"><span class="tag tag-green">~5 semaines</span></div>
+									<div class="tododone">
+										<div class="md-checkbox">
+		    <input id="i4" type="checkbox" unchecked>
+		    <label for="i4"></label>
+		  </div>
+									</div>
+					</div>
+					<div class="todorow">
+						<div class="todoicon"><img src="http://frill-s.com/coculture/logos/pick.png"></div>
+							<div class="tododesc">Cueuillette</div>
+								<div class="todouser"><span class="avatar" style="background-image: url(./demo/faces/female/11.jpg)"></span></div>
+									<div class="tododue"><span class="tag tag-green">~8 semaines</span></div>
+									<div class="tododone">
+										<div class="md-checkbox">
+		    <input id="i5" type="checkbox" unchecked>
+		    <label for="i5"></label>
+		  </div>
+									</div>
+					</div>
+		</div>
+		</div>
+		</div>
+
+		<div class="col-xl-6 col-sm-12">
+			<div class="card">
+	<div class="card-header">
+		<h2 class="card-title">Tâches</h2>
+		<div class="card-options text-muted">
+			<select class="custom-select custom-select-sm ml-2" name="" id="">
+				<option>Cette semaine</option>
+				<option>Semaine dernière</option>
+			</select>
+		</div>
+	</div>
+	<div class="card-body">
+		<div id="chart-tasks" style="height: 15rem"></div>
+	</div>
+	<div class="card-tabs card-tabs-bottom">
+		<a href="javascript:void(0)" class="card-tabs-item text-center active">
+			<h3 class="mb-1">120</h3>
+			<div class="text-muted-dark">Tâches complétées</div>
+		</a>
+		<a href="javascript:void(0)" class="card-tabs-item text-center">
+			<h3 class="mb-1">25</h3>
+			<div class="text-muted-dark">Heures</div>
+		</a>
+		<a href="javascript:void(0)" class="card-tabs-item text-center">
+			<h3 class="mb-1">2</h3>
+			<div class="text-muted-dark">Visites</div>
+		</a>
+
+	</div>
+</div>
+
+<script>
+require(['c3', 'jquery'], function(c3, $) {
+	$(document).ready(function(){
+		var chart = c3.generate({
+			bindto: '#chart-tasks', // id of chart wrapper
+			data: {
+				columns: [
+				    // each columns data
+					['data1', 0, 0, 1, 2, 21, 9, 12, 10, 31, 13, 65, 10, 12, 6, 4, 3, 0],
+					['data2', 0, 0, 1, 2, 7, 5, 6, 8, 24, 7, 12, 5, 6, 3, 2, 2, 0],
+					['data3', 0, 0, 1, 0, 2, 0, 1, 0, 2, 3, 0, 2, 3, 2, 1, 0, 0]
+				],
+				classes: {
+					data1: 'filled',
+					data2: 'filled',
+					data3: 'filled'
+				},
+				type: 'line', // default type of chart
+				groups: [
+					[ 'data1', 'data2', 'data3']
+				],
+				colors: { 
+					'data1': tabler.colors["blue"],
+					'data2': tabler.colors["lime"],
+					'data3': tabler.colors["orange"]
+				},
+				names: {
+				    // name of each serie
+					'data1': 'Arrosage',
+					'data2': 'Paysagement',
+					'data3': 'Cueillette'
+				}
+			},
+			axis: {
+				y: {
+					padding: {
+						bottom: 0,
+					},
+					show: false,
+						tick: {
+						outer: false
+					}
+				},
+				x: {
+					padding: {
+						left: 0,
+						right: 0
+					},
+					show: false
+				}
+			},
+			legend: {
+				position: 'inset',
+				padding: 0,
+				inset: {
+                    anchor: 'top-left',
+					x: 20,
+					y: 8,
+					step: 10
+				}
+			},
+			tooltip: {
+				format: {
+					title: function (x) {
+						return '';
+					}
+				}
+			},
+			padding: {
+				bottom: 0,
+				left: -1,
+				right: -1
+			},
+			point: {
+				show: false
+			}
+		});
+	});
+});
+</script>
+
+			
+		</div>
+		</div>
+
+		<div class="col-sm-12">
+			<div class="card">
+	<div class="card-header">
+		<h3 class="card-title">Activités</h3>
+	</div>
+	<div id="chart-development-activity" style="height: 10rem"></div>
+	<div class="table-responsive">
+		<table class="table card-table table-striped table-vcenter">
+			<thead>
+			<tr>
+				<th colspan="2">Jardinier</th>
+				<th>Commentaire</th>
+				<th>Date</th>
+				<th></th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td class="w-1"><span class="avatar" style="background-image: url(./demo/faces/male/9.jpg)"></span></td>
+				<td>Ronald Langevin</td>
+				<td>Tout est beau!</td>
+				<td class="text-nowrap">May 6, 2018</td>
+				<td class="w-1"><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+			</tr>
+			<tr>
+				<td><span class="avatar">BM</span></td>
+				<td>Russell Rioux</td>
+				<td>Un peu de mauvaises herbes :S</td>
+				<td class="text-nowrap">April 22, 2018</td>
+				<td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+			</tr>
+			<tr>
+				<td><span class="avatar" style="background-image: url(./demo/faces/female/1.jpg)"></span></td>
+				<td>Beverly Armstrong</td>
+				<td>J'ai trimmé les roses</td>
+				<td class="text-nowrap">April 15, 2018</td>
+				<td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+			</tr>
+			<tr>
+				<td><span class="avatar" style="background-image: url(./demo/faces/male/4.jpg)"></span></td>
+				<td>Bobby Daubois</td>
+				<td>J'ai juste arrosé</td>
+				<td class="text-nowrap">April 8, 2018</td>
+				<td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+			</tr>
+			<tr>
+				<td><span class="avatar" style="background-image: url(./demo/faces/female/11.jpg)"></span></td>
+				<td>Sharon Patnaud</td>
+				<td>Les tomates sont presque prêtes</td>
+				<td class="text-nowrap">April 9, 2018</td>
+				<td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<script>
+require(['c3', 'jquery'], function(c3, $) {
+	$(document).ready(function(){
+		var chart = c3.generate({
+			bindto: '#chart-development-activity', // id of chart wrapper
+			data: {
+				columns: [
+				    // each columns data
+					['data1', 0, 5, 1, 2, 7, 5, 6, 8, 24, 7, 12, 5, 6, 3, 2, 2, 6, 30, 10, 10, 15, 14, 47, 65, 55]
+				],
+				type: 'area', // default type of chart
+				groups: [
+					[ 'data1', 'data2', 'data3']
+				],
+				colors: { 
+					'data1': tabler.colors["blue"]
+				},
+				names: {
+				    // name of each serie
+					'data1': 'Activité'
+				}
+			},
+			axis: {
+				y: {
+					padding: {
+						bottom: 0,
+					},
+					show: false,
+						tick: {
+						outer: false
+					}
+				},
+				x: {
+					padding: {
+						left: 0,
+						right: 0
+					},
+					show: false
+				}
+			},
+			legend: {
+				position: 'inset',
+				padding: 0,
+				inset: {
+                    anchor: 'top-left',
+					x: 20,
+					y: 8,
+					step: 10
+				}
+			},
+			tooltip: {
+				format: {
+					title: function (x) {
+						return '';
+					}
+				}
+			},
+			padding: {
+				bottom: 0,
+				left: -1,
+				right: -1
+			},
+			point: {
+				show: false
+			}
+		});
+	});
+});
+</script>
+
+			
+		</div>
+		<!-- <div class="col-lg-6">
+			<div class="card">
+	<div class="card-header">
+		<h3 class="card-title">Activités</h3>
+	</div>
+	<div id="chart-development-activity" style="height: 10rem"></div>
+	<div class="table-responsive">
+		<table class="table card-table table-striped table-vcenter">
+			<thead>
+			<tr>
+				<th colspan="2">Jardinier</th>
+				<th>Commentaire</th>
+				<th>Date</th>
+				<th></th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td class="w-1"><span class="avatar" style="background-image: url(./demo/faces/male/9.jpg)"></span></td>
+				<td>Ronald Langevin</td>
+				<td>Tout est beau!</td>
+				<td class="text-nowrap">May 6, 2018</td>
+				<td class="w-1"><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+			</tr>
+			<tr>
+				<td><span class="avatar">BM</span></td>
+				<td>Russell Rioux</td>
+				<td>Un peu de mauvaises herbes :S</td>
+				<td class="text-nowrap">April 22, 2018</td>
+				<td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+			</tr>
+			<tr>
+				<td><span class="avatar" style="background-image: url(./demo/faces/female/1.jpg)"></span></td>
+				<td>Beverly Armstrong</td>
+				<td>J'ai trimmé les roses</td>
+				<td class="text-nowrap">April 15, 2018</td>
+				<td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+			</tr>
+			<tr>
+				<td><span class="avatar" style="background-image: url(./demo/faces/male/4.jpg)"></span></td>
+				<td>Bobby Daubois</td>
+				<td>J'ai juste arrosé</td>
+				<td class="text-nowrap">April 8, 2018</td>
+				<td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+			</tr>
+			<tr>
+				<td><span class="avatar" style="background-image: url(./demo/faces/female/11.jpg)"></span></td>
+				<td>Sharon Patnaud</td>
+				<td>Les tomates sont presque prêtes</td>
+				<td class="text-nowrap">April 9, 2018</td>
+				<td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<script>
+require(['c3', 'jquery'], function(c3, $) {
+	$(document).ready(function(){
+		var chart = c3.generate({
+			bindto: '#chart-development-activity', // id of chart wrapper
+			data: {
+				columns: [
+				    // each columns data
+					['data1', 0, 5, 1, 2, 7, 5, 6, 8, 24, 7, 12, 5, 6, 3, 2, 2, 6, 30, 10, 10, 15, 14, 47, 65, 55]
+				],
+				type: 'area', // default type of chart
+				groups: [
+					[ 'data1', 'data2', 'data3']
+				],
+				colors: { 
+					'data1': tabler.colors["blue"]
+				},
+				names: {
+				    // name of each serie
+					'data1': 'Activité'
+				}
+			},
+			axis: {
+				y: {
+					padding: {
+						bottom: 0,
+					},
+					show: false,
+						tick: {
+						outer: false
+					}
+				},
+				x: {
+					padding: {
+						left: 0,
+						right: 0
+					},
+					show: false
+				}
+			},
+			legend: {
+				position: 'inset',
+				padding: 0,
+				inset: {
+                    anchor: 'top-left',
+					x: 20,
+					y: 8,
+					step: 10
+				}
+			},
+			tooltip: {
+				format: {
+					title: function (x) {
+						return '';
+					}
+				}
+			},
+			padding: {
+				bottom: 0,
+				left: -1,
+				right: -1
+			},
+			point: {
+				show: false
+			}
+		});
+	});
+});
+</script>
+
+			
+		</div> -->
+		<!-- <div class="col-6 col-sm-4 col-lg-2">
+			<div class="card">
+	<div class="card-body p-3 text-center">
+		<div class="text-right text-green">
+			6%
+			
+				<i class="fe fe-chevron-up"></i>
+			
+		</div>
+		<div class="h1 m-0">43</div>
+		<div class="text-muted mb-4">New Tickets</div>
+	</div>
+</div>
+		</div>
+		<div class="col-6 col-sm-4 col-lg-2">
+			<div class="card">
+	<div class="card-body p-3 text-center">
+		<div class="text-right text-red">
+			-3%
+			
+				<i class="fe fe-chevron-down"></i>
+			
+		</div>
+		<div class="h1 m-0">17</div>
+		<div class="text-muted mb-4">Closed Today</div>
+	</div>
+</div>
+		</div>
+		<div class="col-6 col-sm-4 col-lg-2">
+			<div class="card">
+	<div class="card-body p-3 text-center">
+		<div class="text-right text-green">
+			9%
+			
+				<i class="fe fe-chevron-up"></i>
+			
+		</div>
+		<div class="h1 m-0">7</div>
+		<div class="text-muted mb-4">New Replies</div>
+	</div>
+</div>
+		</div>
+		<div class="col-6 col-sm-4 col-lg-2">
+			<div class="card">
+	<div class="card-body p-3 text-center">
+		<div class="text-right text-green">
+			3%
+			
+				<i class="fe fe-chevron-up"></i>
+			
+		</div>
+		<div class="h1 m-0">27.3K</div>
+		<div class="text-muted mb-4">Followers</div>
+	</div>
+</div>
+		</div>
+		<div class="col-6 col-sm-4 col-lg-2">
+			<div class="card">
+	<div class="card-body p-3 text-center">
+		<div class="text-right text-red">
+			-2%
+			
+				<i class="fe fe-chevron-down"></i>
+			
+		</div>
+		<div class="h1 m-0">$95</div>
+		<div class="text-muted mb-4">Daily Earnings</div>
+	</div>
+</div>
+		</div>
+		<div class="col-6 col-sm-4 col-lg-2">
+			<div class="card">
+	<div class="card-body p-3 text-center">
+		<div class="text-right text-red">
+			-1%
+			
+				<i class="fe fe-chevron-down"></i>
+			
+		</div>
+		<div class="h1 m-0">621</div>
+		<div class="text-muted mb-4">Products</div>
+	</div>
+</div>
+		</div> -->
+
+
+		<div class="col-md-12">
+			<div class="alert alert-primary">Are you in trouble? <a href="./docs/index.html" class="alert-link">Read our documentation</a> with code samples.</div>
+
+			<!-- <div class="row">
+				<div class="col-sm-6">
+					<div class="card">
+	<div class="card-header">
+		<h3 class="card-title">Chart title</h3>
+	</div>
+	<div class="card-body">
+		<div id="chart-donut" style="height: 12rem;"></div>
+	</div>
+</div>
+<script>
+require(['c3', 'jquery'], function(c3, $) {
+	$(document).ready(function(){
+		var chart = c3.generate({
+			bindto: '#chart-donut', // id of chart wrapper
+			data: {
+				columns: [
+				    // each columns data
+					['data1', 63],
+					['data2', 37]
+				],
+				type: 'donut', // default type of chart
+				colors: { 
+					'data1': tabler.colors["green"],
+					'data2': tabler.colors["green-light"]
+				},
+				names: {
+				    // name of each serie
+					'data1': 'Maximum',
+					'data2': 'Minimum'
+				}
+			},
+			axis: {
+			},
+			legend: {
+                show: false, //hide legend
+			},
+			padding: {
+				bottom: 0,
+				top: 0
+			},
+		});
+	});
+});
+</script>
+				</div>
+				<div class="col-sm-6">
+					<div class="card">
+	<div class="card-header">
+		<h3 class="card-title">Activités Communes</h3>
+	</div>
+	<div class="card-body">
+		<div id="chart-pie" style="height: 12rem;"></div>
+	</div>
+</div>
+<script>
+require(['c3', 'jquery'], function(c3, $) {
+	$(document).ready(function(){
+		var chart = c3.generate({
+			bindto: '#chart-pie', // id of chart wrapper
+			data: {
+				columns: [
+				    // each columns data
+					['data1', 63],
+					['data2', 44],
+					['data3', 12],
+					['data4', 14]
+				],
+				type: 'pie', // default type of chart
+				colors: { 
+					'data1': tabler.colors["blue-darker"],
+					'data2': tabler.colors["blue"],
+					'data3': tabler.colors["blue-light"],
+					'data4': tabler.colors["blue-lighter"]
+				},
+				names: {
+				    // name of each serie
+					'data1': 'Arrosage',
+					'data2': 'Paysagement',
+					'data3': 'Engagement',
+					'data4': 'Troc'
+				}
+			},
+			axis: {
+			},
+			legend: {
+                show: false, //hide legend
+			},
+			padding: {
+				bottom: 0,
+				top: 0
+			},
+		});
+	});
+});
+</script>
+				</div>
+				<div class="col-sm-6">
+					
+
+
+
+<div class="card">
+	<div class="card-body text-center">
+		<div class="h5">New feedback</div>
+		<div class="display-4 font-weight-bold mb-4">62</div>
+		<div class="progress progress-sm">
+			<div class="progress-bar bg-red" style="width: 28%"></div>
+		</div>
+	</div>
+</div>
+				</div>
+				<div class="col-sm-6">
+					
+
+
+
+<div class="card">
+	<div class="card-body text-center">
+		<div class="h5">Today profit</div>
+		<div class="display-4 font-weight-bold mb-4">$652</div>
+		<div class="progress progress-sm">
+			<div class="progress-bar bg-green" style="width: 84%"></div>
+		</div>
+	</div>
+</div>
+				</div>
+			</div>
+		</div> -->
+
+
+		<!-- <div class="col-sm-6 col-lg-3">
+			<div class="card p-3">
+	<div class="d-flex align-items-center">
+		<span class="stamp stamp-md bg-blue mr-3">
+			<i class="fe fe-dollar-sign"></i>
+		</span>
+		<div>
+			<h4 class="m-0"><a href="javascript:void(0)">132 <small>Sales</small></a></h4>
+			<small class="text-muted">12 waiting payments</small>
+		</div>
+	</div>
+</div>
+		</div>
+		<div class="col-sm-6 col-lg-3">
+			<div class="card p-3">
+	<div class="d-flex align-items-center">
+		<span class="stamp stamp-md bg-green mr-3">
+			<i class="fe fe-shopping-cart"></i>
+		</span>
+		<div>
+			<h4 class="m-0"><a href="javascript:void(0)">78 <small>Orders</small></a></h4>
+			<small class="text-muted">32 shipped</small>
+		</div>
+	</div>
+</div>
+		</div>
+		<div class="col-sm-6 col-lg-3">
+			<div class="card p-3">
+	<div class="d-flex align-items-center">
+		<span class="stamp stamp-md bg-red mr-3">
+			<i class="fe fe-users"></i>
+		</span>
+		<div>
+			<h4 class="m-0"><a href="javascript:void(0)">1,352 <small>Members</small></a></h4>
+			<small class="text-muted">163 registered today</small>
+		</div>
+	</div>
+</div>
+		</div>
+		<div class="col-sm-6 col-lg-3">
+			<div class="card p-3">
+	<div class="d-flex align-items-center">
+		<span class="stamp stamp-md bg-yellow mr-3">
+			<i class="fe fe-message-square"></i>
+		</span>
+		<div>
+			<h4 class="m-0"><a href="javascript:void(0)">132 <small>Comments</small></a></h4>
+			<small class="text-muted">16 waiting</small>
+		</div>
+	</div>
+</div>
+		</div>
+	</div> -->
+
+	<div class="row row-cards row-deck">
+		
+		<div class="col-lg-6">
+			
+
+
+
+
+
+<div class="card card-aside">
+	
+
+	
+	<a href="#" class="card-aside-column" style="background-image: url(./demo/photos/bobby-burch-145906-500.jpg)"></a>
+	
+
+
+
+	<div class="card-body d-flex flex-column">
+		<h4><a href="#">Des arbres qui sont le fun à grimper.</a></h4>
+
+		<div class="text-muted">Mes enfants on finalement un jouet qu'ils utilisent à l'extérieur! Nous avons planter un érablier...</div>
+
+		<div class="d-flex align-items-center pt-5 mt-auto">
+			<div class="avatar avatar-md mr-3" style="background-image: url(./demo/faces/female/18.jpg)"></div>
+			<div>
+				<a href="./profile.html" class="text-default">Rose Depati</a>
+				<small class="d-block text-muted">3 days ago</small>
+			</div>
+			<div class="ml-auto text-muted">
+				<a href="javascript:void(0)" class="icon d-none d-md-inline-block ml-3"><i class="fe fe-heart mr-1"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+		</div>
+		
+		<div class="col-lg-6">
+			
+
+
+
+
+
+<div class="card card-aside">
+	
+
+	
+	<a href="#" class="card-aside-column" style="background-image: url(./demo/photos/ilnur-kalimullin-218996-500.jpg)"></a>
+	
+
+
+
+	<div class="card-body d-flex flex-column">
+		<h4><a href="#">Laissez pousser votre gazon!</a></h4>
+
+		<div class="text-muted">Je vois trop souvent des voisin qui coupe leur gazon a chaque semaine. C'est assez! Votre pelouse...</div>
+
+		<div class="d-flex align-items-center pt-5 mt-auto">
+			<div class="avatar avatar-md mr-3" style="background-image: url(./demo/faces/male/16.jpg)"></div>
+			<div>
+				<a href="./profile.html" class="text-default">Peter Proulx</a>
+				<small class="d-block text-muted">3 days ago</small>
+			</div>
+			<div class="ml-auto text-muted">
+				<a href="javascript:void(0)" class="icon d-none d-md-inline-block ml-3"><i class="fe fe-heart mr-1"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+		</div>
+		
+	</div>
+
+	<div class="row row-cards row-deck">
+
+		<div class="col-12">
+			<div class="card">
+	<div class="table-responsive">
+		<table class="table table-hover table-outline table-vcenter text-nowrap card-table">
+			<thead>
+			<tr>
+				<th class="text-center w-1"><i class="icon-people"></i></th>
+
+				<th>Jardinier</th>
+
+				<th>Usage</th>
+				<!-- <th class="text-center">Payment</th> -->
+				<th>Activité</th>
+				<th class="text-center">Satisfaction</th>
+				<th class="text-center"><i class="icon-settings"></i></th>
+			</tr>
+			</thead>
+			<tbody>
+
+			
+			
+			
+			
+			<tr>
+				<td class="text-center">
+					<div class="avatar d-block" style="background-image: url(demo/faces/female/26.jpg)">
+						<span class="avatar-status bg-green"></span>
+					</div>
+				</td>
+				<td>
+					<div>Elizabeth Martin</div>
+					<div class="small text-muted">
+						Inscrit: Apr 8, 2018
+					</div>
+				</td>
+				<td>
+					<div class="clearfix">
+						<div class="float-left">
+							<strong>42%</strong>
+						</div>
+						<div class="float-right">
+							<small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+						</div>
+					</div>
+					<div class="progress progress-xs">
+						<div class="progress-bar bg-yellow" role="progressbar" style="width: 42%"
+						     aria-valuenow="42" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</td>
+				<!-- <td class="text-center">
+					<i class="payment payment-visa"></i>
+				</td> -->
+				<td>
+					<div class="small text-muted">Dernière connexion</div>
+					<div>4 minutes ago</div>
+				</td>
+				<td class="text-center">
+					
+					<div class="mx-auto chart-circle chart-circle-xs" data-value="0.42" data-thickness="3" data-color="blue">
+						<div class="chart-circle-value">42%</div>
+					</div>
+				</td>
+				<td class="text-center">
+					<div class="item-action dropdown">
+	<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+	<div class="dropdown-menu dropdown-menu-right">
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+		<div class="dropdown-divider"></div>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+	</div>
+</div>
+				</td>
+			</tr>
+			
+			
+			
+			
+			<tr>
+				<td class="text-center">
+					<div class="avatar d-block" style="background-image: url(demo/faces/female/17.jpg)">
+						<span class="avatar-status bg-green"></span>
+					</div>
+				</td>
+				<td>
+					<div>Mélanie Samson</div>
+					<div class="small text-muted">
+						Inscrit: Mar 22, 2018
+					</div>
+				</td>
+				<td>
+					<div class="clearfix">
+						<div class="float-left">
+							<strong>0%</strong>
+						</div>
+						<div class="float-right">
+							<small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+						</div>
+					</div>
+					<div class="progress progress-xs">
+						<div class="progress-bar bg-red" role="progressbar" style="width: 0%"
+						     aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</td>
+				<!-- <td class="text-center">
+					<i class="payment payment-googlewallet"></i>
+				</td> -->
+				<td>
+					<div class="small text-muted">Dernière connexion</div>
+					<div>5 minutes ago</div>
+				</td>
+				<td class="text-center">
+					
+					<div class="mx-auto chart-circle chart-circle-xs" data-value="0.0" data-thickness="3" data-color="blue">
+						<div class="chart-circle-value">0%</div>
+					</div>
+				</td>
+				<td class="text-center">
+					<div class="item-action dropdown">
+	<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+	<div class="dropdown-menu dropdown-menu-right">
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+		<div class="dropdown-divider"></div>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+	</div>
+</div>
+				</td>
+			</tr>
+			
+			
+			
+			
+			<tr>
+				<td class="text-center">
+					<div class="avatar d-block" style="background-image: url(demo/faces/female/21.jpg)">
+						<span class="avatar-status bg-green"></span>
+					</div>
+				</td>
+				<td>
+					<div>Christine Bertrand</div>
+					<div class="small text-muted">
+						Inscrit: Apr 27, 2018
+					</div>
+				</td>
+				<td>
+					<div class="clearfix">
+						<div class="float-left">
+							<strong>96%</strong>
+						</div>
+						<div class="float-right">
+							<small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+						</div>
+					</div>
+					<div class="progress progress-xs">
+						<div class="progress-bar bg-green" role="progressbar" style="width: 96%"
+						     aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</td>
+				<!-- <td class="text-center">
+					<i class="payment payment-mastercard"></i>
+				</td> -->
+				<td>
+					<div class="small text-muted">Dernière connexion</div>
+					<div>a minute ago</div>
+				</td>
+				<td class="text-center">
+					
+					<div class="mx-auto chart-circle chart-circle-xs" data-value="0.96" data-thickness="3" data-color="blue">
+						<div class="chart-circle-value">96%</div>
+					</div>
+				</td>
+				<td class="text-center">
+					<div class="item-action dropdown">
+	<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+	<div class="dropdown-menu dropdown-menu-right">
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+		<div class="dropdown-divider"></div>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+	</div>
+</div>
+				</td>
+			</tr>
+			
+			
+			
+			
+			<tr>
+				<td class="text-center">
+					<div class="avatar d-block" style="background-image: url(demo/faces/male/32.jpg)">
+						<span class="avatar-status bg-green"></span>
+					</div>
+				</td>
+				<td>
+					<div>Damien Raymond</div>
+					<div class="small text-muted">
+						Inscrit: Feb 4, 2018
+					</div>
+				</td>
+				<td>
+					<div class="clearfix">
+						<div class="float-left">
+							<strong>6%</strong>
+						</div>
+						<div class="float-right">
+							<small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+						</div>
+					</div>
+					<div class="progress progress-xs">
+						<div class="progress-bar bg-red" role="progressbar" style="width: 6%"
+						     aria-valuenow="6" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</td>
+				<!-- <td class="text-center">
+					<i class="payment payment-shopify"></i>
+				</td> -->
+				<td>
+					<div class="small text-muted">Dernière connexion</div>
+					<div>a minute ago</div>
+				</td>
+				<td class="text-center">
+					
+					<div class="mx-auto chart-circle chart-circle-xs" data-value="0.06" data-thickness="3" data-color="blue">
+						<div class="chart-circle-value">6%</div>
+					</div>
+				</td>
+				<td class="text-center">
+					<div class="item-action dropdown">
+	<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+	<div class="dropdown-menu dropdown-menu-right">
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+		<div class="dropdown-divider"></div>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+	</div>
+</div>
+				</td>
+			</tr>
+			
+			
+			
+			
+			<tr>
+				<td class="text-center">
+					<div class="avatar d-block" style="background-image: url(demo/faces/female/12.jpg)">
+						<span class="avatar-status bg-green"></span>
+					</div>
+				</td>
+				<td>
+					<div>Teresa Reyes</div>
+					<div class="small text-muted">
+						Inscrit: Mar 24, 2018
+					</div>
+				</td>
+				<td>
+					<div class="clearfix">
+						<div class="float-left">
+							<strong>36%</strong>
+						</div>
+						<div class="float-right">
+							<small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+						</div>
+					</div>
+					<div class="progress progress-xs">
+						<div class="progress-bar bg-red" role="progressbar" style="width: 36%"
+						     aria-valuenow="36" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</td>
+				<!-- <td class="text-center">
+					<i class="payment payment-ebay"></i>
+				</td> -->
+				<td>
+					<div class="small text-muted">Dernière connexion</div>
+					<div>2 minutes ago</div>
+				</td>
+				<td class="text-center">
+					
+					<div class="mx-auto chart-circle chart-circle-xs" data-value="0.36" data-thickness="3" data-color="blue">
+						<div class="chart-circle-value">36%</div>
+					</div>
+				</td>
+				<td class="text-center">
+					<div class="item-action dropdown">
+	<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+	<div class="dropdown-menu dropdown-menu-right">
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+		<div class="dropdown-divider"></div>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+	</div>
+</div>
+				</td>
+			</tr>
+			
+			
+			
+			
+			<tr>
+				<td class="text-center">
+					<div class="avatar d-block" style="background-image: url(demo/faces/female/4.jpg)">
+						<span class="avatar-status bg-green"></span>
+					</div>
+				</td>
+				<td>
+					<div>Emma Wade</div>
+					<div class="small text-muted">
+						Inscrit: Apr 9, 2018
+					</div>
+				</td>
+				<td>
+					<div class="clearfix">
+						<div class="float-left">
+							<strong>7%</strong>
+						</div>
+						<div class="float-right">
+							<small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+						</div>
+					</div>
+					<div class="progress progress-xs">
+						<div class="progress-bar bg-red" role="progressbar" style="width: 7%"
+						     aria-valuenow="7" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</td>
+				<!-- <td class="text-center">
+					<i class="payment payment-paypal"></i>
+				</td> -->
+				<td>
+					<div class="small text-muted">Dernière connexion</div>
+					<div>a minute ago</div>
+				</td>
+				<td class="text-center">
+					
+					<div class="mx-auto chart-circle chart-circle-xs" data-value="0.07" data-thickness="3" data-color="blue">
+						<div class="chart-circle-value">7%</div>
+					</div>
+				</td>
+				<td class="text-center">
+					<div class="item-action dropdown">
+	<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+	<div class="dropdown-menu dropdown-menu-right">
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+		<div class="dropdown-divider"></div>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+	</div>
+</div>
+				</td>
+			</tr>
+			
+			
+			
+			
+			<tr>
+				<td class="text-center">
+					<div class="avatar d-block" style="background-image: url(demo/faces/female/27.jpg)">
+						<span class="avatar-status bg-green"></span>
+					</div>
+				</td>
+				<td>
+					<div>Tina Medina</div>
+					<div class="small text-muted">
+						Inscrit: Mar 14, 2018
+					</div>
+				</td>
+				<td>
+					<div class="clearfix">
+						<div class="float-left">
+							<strong>80%</strong>
+						</div>
+						<div class="float-right">
+							<small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+						</div>
+					</div>
+					<div class="progress progress-xs">
+						<div class="progress-bar bg-green" role="progressbar" style="width: 80%"
+						     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</td>
+				<!-- <td class="text-center">
+					<i class="payment payment-visa"></i>
+				</td> -->
+				<td>
+					<div class="small text-muted">Dernière connexion</div>
+					<div>9 minutes ago</div>
+				</td>
+				<td class="text-center">
+					
+					<div class="mx-auto chart-circle chart-circle-xs" data-value="0.8" data-thickness="3" data-color="blue">
+						<div class="chart-circle-value">80%</div>
+					</div>
+				</td>
+				<td class="text-center">
+					<div class="item-action dropdown">
+	<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+	<div class="dropdown-menu dropdown-menu-right">
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+		<div class="dropdown-divider"></div>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+	</div>
+</div>
+				</td>
+			</tr>
+			
+			
+			
+			
+			<tr>
+				<td class="text-center">
+					<div class="avatar d-block" style="background-image: url(demo/faces/male/20.jpg)">
+						<span class="avatar-status bg-green"></span>
+					</div>
+				</td>
+				<td>
+					<div>Christophe Latreille</div>
+					<div class="small text-muted">
+						Inscrit: Feb 11, 2018
+					</div>
+				</td>
+				<td>
+					<div class="clearfix">
+						<div class="float-left">
+							<strong>83%</strong>
+						</div>
+						<div class="float-right">
+							<small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+						</div>
+					</div>
+					<div class="progress progress-xs">
+						<div class="progress-bar bg-green" role="progressbar" style="width: 83%"
+						     aria-valuenow="83" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</td>
+				<!-- <td class="text-center">
+					<i class="payment payment-googlewallet"></i>
+				</td> -->
+				<td>
+					<div class="small text-muted">Dernière connexion</div>
+					<div>8 minutes ago</div>
+				</td>
+				<td class="text-center">
+					
+					<div class="mx-auto chart-circle chart-circle-xs" data-value="0.83" data-thickness="3" data-color="blue">
+						<div class="chart-circle-value">83%</div>
+					</div>
+				</td>
+				<td class="text-center">
+					<div class="item-action dropdown">
+	<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+	<div class="dropdown-menu dropdown-menu-right">
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+		<div class="dropdown-divider"></div>
+		<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+	</div>
+</div>
+				</td>
+			</tr>
+			
+			</tbody>
+		</table>
+	</div>
+
+</div>
+
+		</div>
+
+		<div class="col-sm-6 col-lg-4">
+		<div class="card">
+	<div class="card-header">
+		<h3 class="card-title">Température Moyenne</h3>
+	</div>
+	<div class="card-body">
+		<div id="chart-temperature" style="height: 15rem;"></div>
+	</div>
+</div>
+<script>
+require(['c3', 'jquery'], function(c3, $) {
+	$(document).ready(function(){
+		var chart = c3.generate({
+			bindto: '#chart-temperature', // id of chart wrapper
+			data: {
+				columns: [
+				    // each columns data
+					['data1', 7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6],
+					['data2', 3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+				],
+				labels: true,
+				type: 'line', // default type of chart
+				colors: { 
+					'data1': tabler.colors["blue"],
+					'data2': tabler.colors["green"]
+				},
+				names: {
+				    // name of each serie
+					'data1': 'Tokyo',
+					'data2': 'London'
+				}
+			},
+			axis: {
+				x: {
+					type: 'category',
+					// name of each category
+					categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+				},
+			},
+			legend: {
+                show: false, //hide legend
+			},
+			padding: {
+				bottom: 0,
+				top: 0
+			},
+		});
+	});
+});
+</script>
+		</div>
+		<div class="col-sm-6 col-lg-4">
+			<div class="card">
+<div class="card-header">
+	<h3 class="card-title">Mes plantes</h3>
+	</div>
+	<div class="card-body">
+	<table class="table card-table">
+		<tbody>
+			<tr>
+				<td width="1"><img src="http://frill-s.com/coculture/logos/fleur.png"></img></td>
+				<td>Fleurs</td>
+				<td class="text-right"><span class="text-muted">23%</span></td>
+			</tr>
+			<tr>
+				<td><img src="http://frill-s.com/coculture/logos/legume.png"></img></td>
+				<td>Legumes</td>
+				<td class="text-right"><span class="text-muted">15%</span></td>
+			</tr>
+			<tr>
+				<td><img src="http://frill-s.com/coculture/logos/fruit.png"></img></td>
+				<td>Fruits</td>
+				<td class="text-right"><span class="text-muted">7%</span></td>
+			</tr>
+			<tr>
+				<td><img src="http://frill-s.com/coculture/logos/tubercule.png"></img></td>
+				<td>Tubercules</td>
+				<td class="text-right"><span class="text-muted">23%</span></td>
+			</tr>
+			<tr>
+				<td><img src="http://frill-s.com/coculture/logos/legumineuses.png"></img></td>
+				<td>Legumineuses</td>
+				<td class="text-right"><span class="text-muted">9%</span></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div id="chart-browsers" style="height: 0rem"></div>
+</div>
+
+<script>
+    require(['c3', 'jquery'], function (c3) {
+        var chart = c3.generate({
+            bindto: '#chart-browsers',
+            data: {
+                columns: [
+                    ['Chrome', 36],
+                    ['Firefox', 5],
+                    ['Safari', 9],
+                    ['Edge', 20],
+                    ['Opera', 30],
+                ],
+                colors: {
+                    Chrome: '{"hex"=>"#5eba00", "name"=>"Green"}',
+                    Firefox: '{"hex"=>"#fd9644", "name"=>"Orange"}',
+                    Safari: '{"hex"=>"#467fcf", "name"=>"Blue"}',
+                    Edge: '{"hex"=>"#45aaf2", "name"=>"Azure"}',
+                    Opera: '{"hex"=>"#e74c3c", "name"=>"Red"}',
+                },
+                type: 'donut'
+            },
+            legend: {
+                show: false
+            }
+        });
+    });
+</script>
+
+		</div>
+		<!-- <div class="col-md-6 col-lg-4">
+			<div class="card">
+	<div class="card-header">
+		<h3 class="card-title">Members</h3>
+	</div>
+
+	<div class="card-body o-auto" style="height: 15rem">
+		<ul class="list-unstyled list-separated">
+
+			
+			<li class="list-separated-item">
+				<div class="row align-items-center">
+					<div class="col-auto">
+						<span class="avatar avatar-md d-block" style="background-image: url(demo/faces/female/12.jpg)"></span>
+					</div>
+					<div class="col">
+						<div>
+							<a href="javascript:void(0)" class="text-inherit">Amanda Hunt</a>
+						</div>
+						<small class="d-block item-except text-sm text-muted h-1x">amanda_hunt@example.com</small>
+					</div>
+					<div class="col-auto">
+						<div class="item-action dropdown">
+							<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+								<div class="dropdown-divider"></div>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+			<li class="list-separated-item">
+				<div class="row align-items-center">
+					<div class="col-auto">
+						<span class="avatar avatar-md d-block" style="background-image: url(demo/faces/female/21.jpg)"></span>
+					</div>
+					<div class="col">
+						<div>
+							<a href="javascript:void(0)" class="text-inherit">Laura Weaver</a>
+						</div>
+						<small class="d-block item-except text-sm text-muted h-1x">lauraweaver@example.com</small>
+					</div>
+					<div class="col-auto">
+						<div class="item-action dropdown">
+							<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+								<div class="dropdown-divider"></div>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+			<li class="list-separated-item">
+				<div class="row align-items-center">
+					<div class="col-auto">
+						<span class="avatar avatar-md d-block" style="background-image: url(demo/faces/female/29.jpg)"></span>
+					</div>
+					<div class="col">
+						<div>
+							<a href="javascript:void(0)" class="text-inherit">Margaret Berry</a>
+						</div>
+						<small class="d-block item-except text-sm text-muted h-1x">margaret88@example.com</small>
+					</div>
+					<div class="col-auto">
+						<div class="item-action dropdown">
+							<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+								<div class="dropdown-divider"></div>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+			<li class="list-separated-item">
+				<div class="row align-items-center">
+					<div class="col-auto">
+						<span class="avatar avatar-md d-block" style="background-image: url(demo/faces/female/2.jpg)"></span>
+					</div>
+					<div class="col">
+						<div>
+							<a href="javascript:void(0)" class="text-inherit">Nancy Herrera</a>
+						</div>
+						<small class="d-block item-except text-sm text-muted h-1x">nancy_83@example.com</small>
+					</div>
+					<div class="col-auto">
+						<div class="item-action dropdown">
+							<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+								<div class="dropdown-divider"></div>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+			<li class="list-separated-item">
+				<div class="row align-items-center">
+					<div class="col-auto">
+						<span class="avatar avatar-md d-block" style="background-image: url(demo/faces/male/34.jpg)"></span>
+					</div>
+					<div class="col">
+						<div>
+							<a href="javascript:void(0)" class="text-inherit">Edward Larson</a>
+						</div>
+						<small class="d-block item-except text-sm text-muted h-1x">edward90@example.com</small>
+					</div>
+					<div class="col-auto">
+						<div class="item-action dropdown">
+							<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+								<div class="dropdown-divider"></div>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+			<li class="list-separated-item">
+				<div class="row align-items-center">
+					<div class="col-auto">
+						<span class="avatar avatar-md d-block" style="background-image: url(demo/faces/female/11.jpg)"></span>
+					</div>
+					<div class="col">
+						<div>
+							<a href="javascript:void(0)" class="text-inherit">Joan Hanson</a>
+						</div>
+						<small class="d-block item-except text-sm text-muted h-1x">joan.hanson@example.com</small>
+					</div>
+					<div class="col-auto">
+						<div class="item-action dropdown">
+							<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+								<div class="dropdown-divider"></div>
+								<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+
+		</ul>
+	</div>
+</div>
+		</div>
+
+		<div class="col-md-6 col-lg-12">
+			<div class="row">
+				<div class="col-sm-6 col-lg-3">
+					
+
+
+
+
+<div class="card">
+	<div class="card-body">
+		<div class="card-value float-right text-blue">+5%</div>
+		<h3 class="mb-1">423</h3>
+		<div class="text-muted">Users online</div>
+	</div>
+	<div class="card-chart-bg">
+		<div id="chart-bg-users-1" style="height: 100%"></div>
+	</div>
+</div>
+
+<script>
+require(['c3', 'jquery'], function (c3, $) {
+	$(document).ready(function() {
+		var chart = c3.generate({
+			bindto: '#chart-bg-users-1',
+			padding: {
+				bottom: -10,
+				left: -1,
+				right: -1
+			},
+			data: {
+				names: {
+					data1: 'Users online'
+				},
+				columns: [
+					['data1', 30, 40, 10, 40, 12, 22, 40]
+				],
+				type: 'area'
+			},
+			legend: {
+				show: false
+			},
+			transition: {
+				duration: 0
+			},
+			point: {
+				show: false
+			},
+			tooltip: {
+				format: {
+					title: function (x) {
+						return '';
+					}
+				}
+			},
+			axis: {
+				y: {
+					padding: {
+						bottom: 0,
+					},
+					show: false,
+					tick: {
+						outer: false
+					}
+				},
+				x: {
+					padding: {
+						left: 0,
+						right: 0
+					},
+					show: false
+				}
+			},
+			color: {
+				pattern: ['#467fcf']
+			}
+		});
+	});
+});
+</script>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					
+
+
+
+
+<div class="card">
+	<div class="card-body">
+		<div class="card-value float-right text-red">-3%</div>
+		<h3 class="mb-1">423</h3>
+		<div class="text-muted">Users online</div>
+	</div>
+	<div class="card-chart-bg">
+		<div id="chart-bg-users-2" style="height: 100%"></div>
+	</div>
+</div>
+
+<script>
+require(['c3', 'jquery'], function (c3, $) {
+	$(document).ready(function() {
+		var chart = c3.generate({
+			bindto: '#chart-bg-users-2',
+			padding: {
+				bottom: -10,
+				left: -1,
+				right: -1
+			},
+			data: {
+				names: {
+					data1: 'Users online'
+				},
+				columns: [
+					['data1', 30, 40, 10, 40, 12, 22, 40]
+				],
+				type: 'area'
+			},
+			legend: {
+				show: false
+			},
+			transition: {
+				duration: 0
+			},
+			point: {
+				show: false
+			},
+			tooltip: {
+				format: {
+					title: function (x) {
+						return '';
+					}
+				}
+			},
+			axis: {
+				y: {
+					padding: {
+						bottom: 0,
+					},
+					show: false,
+					tick: {
+						outer: false
+					}
+				},
+				x: {
+					padding: {
+						left: 0,
+						right: 0
+					},
+					show: false
+				}
+			},
+			color: {
+				pattern: ['#e74c3c']
+			}
+		});
+	});
+});
+</script>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					
+
+
+
+
+<div class="card">
+	<div class="card-body">
+		<div class="card-value float-right text-green">-3%</div>
+		<h3 class="mb-1">423</h3>
+		<div class="text-muted">Users online</div>
+	</div>
+	<div class="card-chart-bg">
+		<div id="chart-bg-users-3" style="height: 100%"></div>
+	</div>
+</div>
+
+<script>
+require(['c3', 'jquery'], function (c3, $) {
+	$(document).ready(function() {
+		var chart = c3.generate({
+			bindto: '#chart-bg-users-3',
+			padding: {
+				bottom: -10,
+				left: -1,
+				right: -1
+			},
+			data: {
+				names: {
+					data1: 'Users online'
+				},
+				columns: [
+					['data1', 30, 40, 10, 40, 12, 22, 40]
+				],
+				type: 'area'
+			},
+			legend: {
+				show: false
+			},
+			transition: {
+				duration: 0
+			},
+			point: {
+				show: false
+			},
+			tooltip: {
+				format: {
+					title: function (x) {
+						return '';
+					}
+				}
+			},
+			axis: {
+				y: {
+					padding: {
+						bottom: 0,
+					},
+					show: false,
+					tick: {
+						outer: false
+					}
+				},
+				x: {
+					padding: {
+						left: 0,
+						right: 0
+					},
+					show: false
+				}
+			},
+			color: {
+				pattern: ['#5eba00']
+			}
+		});
+	});
+});
+</script>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					
+
+
+
+
+<div class="card">
+	<div class="card-body">
+		<div class="card-value float-right text-yellow">9%</div>
+		<h3 class="mb-1">423</h3>
+		<div class="text-muted">Users online</div>
+	</div>
+	<div class="card-chart-bg">
+		<div id="chart-bg-users-4" style="height: 100%"></div>
+	</div>
+</div>
+
+<script>
+require(['c3', 'jquery'], function (c3, $) {
+	$(document).ready(function() {
+		var chart = c3.generate({
+			bindto: '#chart-bg-users-4',
+			padding: {
+				bottom: -10,
+				left: -1,
+				right: -1
+			},
+			data: {
+				names: {
+					data1: 'Users online'
+				},
+				columns: [
+					['data1', 30, 40, 10, 40, 12, 22, 40]
+				],
+				type: 'area'
+			},
+			legend: {
+				show: false
+			},
+			transition: {
+				duration: 0
+			},
+			point: {
+				show: false
+			},
+			tooltip: {
+				format: {
+					title: function (x) {
+						return '';
+					}
+				}
+			},
+			axis: {
+				y: {
+					padding: {
+						bottom: 0,
+					},
+					show: false,
+					tick: {
+						outer: false
+					}
+				},
+				x: {
+					padding: {
+						left: 0,
+						right: 0
+					},
+					show: false
+				}
+			},
+			color: {
+				pattern: ['#f1c40f']
+			}
+		});
+	});
+});
+</script>
+				</div> -->
+			</div>
+		</div>
+
+		<div class="col-sm-12">
+			<div class="card">
+	<div class="card-header">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Message">
+			<div class="input-group-append">
+				<button type="button" class="btn btn-secondary">
+					<i class="fe fe-camera"></i>
+				</button>
+			</div>
+		</div>
+	</div>
+	<ul class="list-group card-list-group">
+		<li class="list-group-item py-5">
+			<div class="media">
+				<div class="media-object avatar avatar-md mr-4" style="background-image: url(demo/faces/male/16.jpg)"></div>
+				<div class="media-body">
+					<div class="media-heading">
+						<small class="float-right text-muted">4 min</small>
+						<h5>Peter Proulx</h5>
+					</div>
+
+					<div>
+						Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras
+						justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes,
+						nascetur ridiculus mus.
+					</div>
+
+					<ul class="media-list">
+						<li class="media mt-4">
+							<div class="media-object avatar mr-4" style="background-image: url(demo/faces/female/17.jpg)"></div>
+							<div class="media-body">
+								<strong>Debra Desjardins: </strong>
+								Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus
+								auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
+							</div>
+						</li>
+						<li class="media mt-4">
+							<div class="media-object avatar mr-4" style="background-image: url(demo/faces/male/32.jpg)"></div>
+							<div class="media-body">
+								<strong>Jack Trudeau: </strong>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
+								amet risus.
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="list-group-item py-5">
+			<div class="media">
+				<div class="media-object avatar avatar-md mr-4" style="background-image: url(demo/faces/male/16.jpg)"></div>
+				<div class="media-body">
+					<div class="media-heading">
+						<small class="float-right text-muted">12 min</small>
+						<h5>Peter Proulx</h5>
+					</div>
+					<div>
+						Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis
+						parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="list-group-item py-5">
+			<div class="media">
+				<div class="media-object avatar avatar-md mr-4" style="background-image: url(demo/faces/male/16.jpg)"></div>
+				<div class="media-body">
+					<div class="media-heading">
+						<small class="float-right text-muted">34 min</small>
+						<h5>Peter Proulx</h5>
+					</div>
+
+					<div>
+						Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+						venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+					</div>
+
+					<ul class="media-list">
+						<li class="media mt-4">
+							<div class="media-object avatar mr-4" style="background-image: url(demo/faces/male/26.jpg)"></div>
+							<div class="media-body">
+								<strong>Wayne Gauthier: </strong>
+								Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus
+								auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+
+			<!-- <div class="card">
+	<div class="card-header">
+		<h3 class="card-title">Mes jardins</h3>
+	</div>
+
+	<div class="table-responsive">
+		<table class="table card-table table-vcenter text-nowrap">
+			<thead>
+			<tr>
+				<th>Jardin</th>
+				<th>Admin</th>
+				<th># Lot</th>
+				<th>Dernière visite</th>
+				<th>Status</th>
+				<th></th>
+				<th></th>
+			</tr>
+			</thead>
+
+			<tbody>
+			
+			<tr>
+				<td><a href="invoice.html" class="text-inherit">Sherbrooke</a></td>
+				<td>
+					Jacques Dupuis
+				</td>
+				<td>
+					87956621
+				</td>
+				<td>
+					15 Déc 2017
+				</td>
+				<td>
+					<span class="status-icon bg-success"></span> Disponible
+				</td>
+
+				<td class="text-right">
+					<a href="javascript:void(0)" class="btn btn-secondary btn-sm">Manage</a>
+					<div class="dropdown">
+						<button class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Actions</button>
+					</div>
+				</td>
+				<td>
+					<a class="icon" href="javascript:void(0)">
+						<i class="fe fe-edit"></i>
+					</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><a href="invoice.html" class="text-inherit">Georges-Vanier</a></td>
+				<td>
+					Maxime Armand
+				</td>
+				<td>
+					87956421
+				</td>
+				<td>
+					12 Avr 2017
+				</td>
+				<td>
+					<span class="status-icon bg-warning"></span> Presque complet
+				</td>
+
+				<td class="text-right">
+					<a href="javascript:void(0)" class="btn btn-secondary btn-sm">Manage</a>
+					<div class="dropdown">
+						<button class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Actions</button>
+					</div>
+				</td>
+				<td>
+					<a class="icon" href="javascript:void(0)">
+						<i class="fe fe-edit"></i>
+					</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><a href="invoice.html" class="text-inherit">Panet</a></td>
+				<td>
+					Guillaume Lavallé
+				</td>
+				<td>
+					87952621
+				</td>
+				<td>
+					23 Oct 2017
+				</td>
+				<td>
+					<span class="status-icon bg-warning"></span> Presque complet
+				</td>
+
+				<td class="text-right">
+					<a href="javascript:void(0)" class="btn btn-secondary btn-sm">Manage</a>
+					<div class="dropdown">
+						<button class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Actions</button>
+					</div>
+				</td>
+				<td>
+					<a class="icon" href="javascript:void(0)">
+						<i class="fe fe-edit"></i>
+					</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><a href="invoice.html" class="text-inherit">Versailles</a></td>
+				<td>
+					Steve Larose
+				</td>
+				<td>
+					87953421
+				</td>
+				<td>
+					2 Sep 2017
+				</td>
+				<td>
+					<span class="status-icon bg-secondary"></span> En attente
+				</td>
+
+				<td class="text-right">
+					<a href="javascript:void(0)" class="btn btn-secondary btn-sm">Manage</a>
+					<div class="dropdown">
+						<button class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Actions</button>
+					</div>
+				</td>
+				<td>
+					<a class="icon" href="javascript:void(0)">
+						<i class="fe fe-edit"></i>
+					</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><a href="invoice.html" class="text-inherit">Babylone</a></td>
+				<td>
+					Marie Maire
+				</td>
+				<td>
+					87956621
+				</td>
+				<td>
+					29 Jan 2018
+				</td>
+				<td>
+					<span class="status-icon bg-danger"></span> Complet
+				</td>
+
+				<td class="text-right">
+					<a href="javascript:void(0)" class="btn btn-secondary btn-sm">Manage</a>
+					<div class="dropdown">
+						<button class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Actions</button>
+					</div>
+				</td>
+				<td>
+					<a class="icon" href="javascript:void(0)">
+						<i class="fe fe-edit"></i>
+					</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><a href="invoice.html" class="text-inherit">Champdoré</a></td>
+				<td>
+					Josiane Doré
+				</td>
+				<td>
+					87956621
+				</td>
+				<td>
+					4 Feb 2018
+				</td>
+				<td>
+					<span class="status-icon bg-secondary"></span> En attente
+				</td>
+
+				<td class="text-right">
+					<a href="javascript:void(0)" class="btn btn-secondary btn-sm">Manage</a>
+					<div class="dropdown">
+						<button class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Actions</button>
+					</div>
+				</td>
+				<td>
+					<a class="icon" href="javascript:void(0)">
+						<i class="fe fe-edit"></i>
+					</a>
+				</td>
+			</tr>
+			
+			</tbody>
+		</table>
+	</div>
+</div>
+ -->
+		</div>
+	</div>
+</div>
+
+	</div>
+</div>
+
+<!-- <div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="row">
+					<div class="col-6 col-md-3">
+						<ul class="list-unstyled mb-0">
+							<li><a href="#">First link</a></li>
+							<li><a href="#">Second link</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3">
+						<ul class="list-unstyled mb-0">
+							<li><a href="#">Third link</a></li>
+							<li><a href="#">Fourth link</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3">
+						<ul class="list-unstyled mb-0">
+							<li><a href="#">Fifth link</a></li>
+							<li><a href="#">Sixth link</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3">
+						<ul class="list-unstyled mb-0">
+							<li><a href="#">Other link</a></li>
+							<li><a href="#">Last link</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 mt-4 mt-lg-0">
+				Premium and Open Source dashboard template with responsive and high quality UI. For Free!
+			</div>
+		</div>
+	</div>
+</div> -->
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="row align-items-center flex-row-reverse">
+			<div class="col-auto ml-lg-auto">
+				<div class="row align-items-center">
+					<!-- <div class="col-auto">
+						<ul class="list-inline list-inline-dots mb-0">
+							<li class="list-inline-item"><a href="./docs/index.html">Documentation</a></li>
+							<li class="list-inline-item"><a href="./faq.html">FAQ</a></li>
+						</ul>
+					</div>
+					<div class="col-auto">
+						<a href="https://github.com/tabler/tabler" class="btn btn-outline-primary btn-sm">Source code</a>
+					</div> -->
+				</div>
+			</div>
+			<div class="col-12 col-lg-auto mt-3 mt-lg-0 text-center">
+				Copyright © 2018 <a href=".">coculture</a>. Theme by <a href="http://frill-s.com" target="_blank">frill's</a> All rights reserved.
+			</div>
+		</div>
+	</div>
+</footer>
+
+</div>
+
+</body>
+</html>
